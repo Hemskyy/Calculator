@@ -4,7 +4,7 @@ let currentInput = '';
 document.addEventListener('keydown', function(event) {
     const key = event.key;
     
-    // Kontrola ci stlacena klavesa je cislo alebo operator//
+    // Kontrola ci stlacena klavesa je cislo alebo operator (+,-,*,/) //
     if (/[0-9+\-*/]/.test(key)) {
         appendToDisplay(key);
 
